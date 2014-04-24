@@ -45,7 +45,7 @@
   ],
   "post-processors": [
     {
-      "output": "packer-ubuntu-current.box",
+      "output": "packer-ubuntu-lts.box",
       "type": "vagrant",
       "vagrantfile_template": "scripts/Vagrantfile"
     }
