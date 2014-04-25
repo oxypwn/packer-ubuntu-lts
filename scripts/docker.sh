@@ -9,3 +9,4 @@ apt-get update
 
 # Install. Confirm install.
 apt-get install -y docker.io
+sudo ln -sf /usr/bin/docker.io /usr/local/bin/docker
