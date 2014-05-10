@@ -63,6 +63,7 @@
         "scripts/virtualbox.sh",
         "scripts/kernel.sh",
         "scripts/docker.sh",
+	"scripts/puppet.sh",
         "scripts/chef.sh",
         "scripts/cleanup.sh"
       ],
