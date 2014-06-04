@@ -25,7 +25,7 @@
       "ssh_username": "vagrant",
       "ssh_wait_timeout": "10000s",
       "type": "virtualbox-iso",
-      "name": "ubuntu-current",
+      "name": "ubuntu-lts",
       "vboxmanage": [
         [
           "modifyvm",
@@ -53,7 +53,7 @@
   "provisioners": [
     {
       "override": {
-        "ubuntu-current": {
+        "ubuntu-lts": {
           "execute_command": "echo 'vagrant'|sudo -S sh '{{.Path}}'"
         }
       },
