@@ -4,8 +4,8 @@
 apt-get -y update
 apt-get -y upgrade
 apt-get -y install gcc build-essential linux-headers-$(uname -r)
-apt-get -y install zlib1g-dev libssl-dev libreadline-gplv2-dev libyaml-dev
-apt-get -y install vim curl git-core
+apt-get -y install software-properties-common zlib1g-dev libssl-dev libreadline-gplv2-dev libyaml-dev
+apt-get -y install vim curl git-core tmux
 apt-get clean
 
 # Set up sudo
