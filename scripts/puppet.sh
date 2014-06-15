@@ -41,6 +41,7 @@ apt-get update >/dev/null
 echo "Installing Puppet..."
 DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" install puppet >/dev/null
 
+puppet -V
 echo "Puppet installed!"
 
 # Install RubyGems for the provider
