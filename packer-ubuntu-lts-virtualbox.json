@@ -64,7 +64,8 @@
         "scripts/docker.sh",
         "scripts/chef.sh",
         "scripts/puppet.sh",
-	"scripts/vagrant.sh",
+        "scripts/ansible.sh",
+        "scripts/vagrant.sh",
         "scripts/cleanup.sh"
       ],
       "type": "shell"
