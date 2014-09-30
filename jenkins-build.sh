@@ -1,4 +1,6 @@
-RKSPACE
+#!/bin/bash -ex
+
+cd $WORKSPACE
 
 export PROJECT_NAME=packer-ubuntu-lts
 
