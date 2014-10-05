@@ -21,7 +21,7 @@ export AWS_SECRET_ACCESS_KEY=
 
 
 $(which gof3r) put -c 1 -p $WORKSPACE/$PROJECT_NAME.box -b $S3_BUCKET -k vagrant/$PROJECT_NAME.box || exit 1;
-mv $WORKSPACE/$PROJECT_NAME.box /data/www/vagrant/boxes
+mv $WORKSPACE/$PROJECT_NAME.box /data/www/vagrant/boxes/
 
 # Post cleanup
 rm $WORKSPACE/$PROJECT_NAME.box || true
